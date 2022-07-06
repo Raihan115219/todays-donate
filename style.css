@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* banner sections */
+
+#banner {
+  width: 100%;
+  height: 640px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(16, 21, 40, 0.52),
+      rgba(0, 0, 0, 0.594)
+    ),
+    url("./images/donation1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.infoText {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.infoText h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 25%;
+  line-height: 30px;
+}
+.btn {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background: tomato;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 25px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+/* banner sections end */
+/* donate today section */
+#donate-Today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+.title {
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+  color: gray;
+  line-height: 30px;
+  padding: 0 25%;
+}
+
+.dontate-ammount {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 35px;
+  margin-top: 20px;
+}
+.dontate-ammount p {
+  padding: 25px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#donateActive {
+  color: tomato;
+  background: rgba(255, 0, 0, 0.1);
+  border: 3px solid tomato;
+  border-radius: 5px;
+}
+.dontate-box {
+  width: 100%;
+  text-align: center;
+}
+#donate {
+  margin-top: 25px;
+  width: 53%;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+}
+
+/* donate today section end */
+/* donate plan  */
+#donate-Plan {
+  width: 100%;
+}
+
+.PlanGroup {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 0 5%;
+  margin-bottom: 50px;
+}
+.planCard {
+  width: 300px;
+  height: 400;
+  margin-top: 25px;
+  padding: 0 25px 15px 20px;
+  text-align: left;
+}
+
+.planCard img {
+  margin-top: 40px;
+}
+.cardText h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.cardText .cardSubText {
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+#card1 {
+  background: rgba(134, 202, 229, 0.373);
+}
+#card2 {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+#card3 {
+  background-color: rgba(247, 253, 140, 0.655);
+}
+#card4 {
+  background-color: rgba(41, 179, 106, 0.586);
+}
+/* donate plan  end */

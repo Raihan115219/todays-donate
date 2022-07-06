@@ -4,9 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Donate, what you have for people!</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS END -->
   </head>
   <body>
-    <h1>hello world</h1>
+    <section id="banner">
+      <div class="infoText">
+        <h1>
+          Let's Help Those Who Are <br />
+          More In Need
+        </h1>
+        <p class="info">
+          A donation is a gift for charity, humanitarian aid, or to benefit a
+          cause. A donation may take various forms, including money, alms,
+          services, or goods such as clothing, toys, food, or vehicles. donation
+          may satisfy medical needs such as blood or organs for transplant.
+        </p>
+        <a href="#" class="btn">Donate Now</a>
+      </div>
+    </section>
+
+    <!-- donate today secton -->
+    <section id="donate-Today">
+      <h1 class="title">Donate Today</h1>
+      <p class="subTitle">
+        It’ll take only 2 minutes.<br />
+        Just tell us a few details about you and the ones you are raising funds
+        for.
+      </p>
+      <div class="dontate-ammount">
+        <p>100tk</p>
+        <p id="donateActive">200tk</p>
+        <p>500tk</p>
+        <p>1000tk</p>
+        <p>5000tk</p>
+      </div>
+      <div class="dontate-box">
+        <input
+          type="text"
+          name="donate"
+          id="donate"
+          placeholder="Other Amount (Taka)"
+        />
+        <br />
+        <button type="submit" class="btn">Donate Now</button>
+      </div>
+    </section>
+    <!-- donate today secton end -->
+
+    <!-- donate plan -->
+    <section id="donate-Plan">
+      <h1 class="title">Our Donate Plan</h1>
+      <p class="subTitle">
+        Your donation will support Plan International’s vital work to advance
+        children’s rights and equality for girls.
+      </p>
+      <div class="PlanGroup">
+        <div class="planCard" id="card1">
+          <img src="./icons/food.png" alt="" />
+          <div class="cardText">
+            <h1>Food For Family</h1>
+            <p class="cardSubText">
+              Tackling hunger on the frontline of emergencies is critical, but
+              we also need long-lasting solutions. That's why we work with
+              countries around the world to help vulnerable people everywhere
+              get the food they need to survive and thrive.
+            </p>
+          </div>
+        </div>
+        <div class="planCard" id="card2">
+          <img src="./icons/shelter.png" alt="" />
+          <div class="cardText">
+            <h1>Shelter for a family</h1>
+            <p class="cardSubText">
+              Help us provide for the basic needs of a family. Throughout the
+              year, SHELTER, Inc. needs a variety of household items, personal
+              care items, and holiday goods to assist families as they
+              transition into housing. We have limited storage space so please
+              contact us regarding donations of items not listed.
+            </p>
+          </div>
+        </div>
+        <div class="planCard" id="card3">
+          <img src="./icons/icon4.svg" alt="" width="72px " height="75px" />
+          <div class="cardText">
+            <h1>Education for a child</h1>
+            <p class="cardSubText">
+              A child’s right to education entails the right to learn. Yet, for
+              too many children across the globe, schooling does not lead to
+              learning. Over 600 million children and adolescents worldwide are
+            </p>
+          </div>
+        </div>
+        <div class="planCard" id="card4">
+          <img src="./icons/medicine.svg" alt="" width="72px" height="72px" />
+          <div class="cardText">
+            <h1>Medicine for effective</h1>
+            <p class="cardSubText">
+              Tackling hunger on the frontline of emergencies is critical, but
+              we also need long-lasting solutions. That's why we work with
+              countries around the world to help vulnerable people everywhere
+              get the food they need to survive and thrive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- donate plan end -->
   </body>
 </html>
